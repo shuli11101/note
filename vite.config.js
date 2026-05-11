@@ -7,6 +7,7 @@ import path from 'path'
 import Icons from 'unplugin-icons/vite'
 
 export default defineConfig({
+  base: './',
   plugins: [
     vue(),
     Icons({

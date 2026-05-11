@@ -8,9 +8,9 @@
       分类
     </div>
     <el-button class="ball2">
-      <div class="text">
+      <router-link to="/" class="text">
         首页
-      </div>
+      </router-link>
     </el-button>
     <el-button plain circle class="ball3">
       <router-link to="/AddNew" class="text">
@@ -19,7 +19,7 @@
     </el-button>
     <el-button plain circle class="ball4">
       <router-link to="/todoItem" class="text">
-        全部
+        代办
       </router-link>
     </el-button>
   </div>
@@ -43,6 +43,7 @@
         text-align: center;
         line-height: 50px;
         color: #ffffff;
+        text-decoration: none;
       }
 
       .ball2, .ball3, .ball4 {
